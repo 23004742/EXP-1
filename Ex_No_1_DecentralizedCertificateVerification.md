@@ -28,11 +28,21 @@ bytes32 certHash = keccak256(abi.encodePacked(studentName, degree, year));
 return certificates[certHash];
 }
 }
+```
 # Expected Output:
 ```
-![Screenshot 2025-04-16 091335](https://github.com/user-attachments/assets/4158ae0a-4acf-47f2-9e86-4ba8cf73a29a)
-![Screenshot 2025-04-16 092033](https://github.com/user-attachments/assets/f2a972f3-1762-434c-b48e-d8a34ed36ed1)
-
-
+● When the university issues a certificate, it gets stored as a hash.
+● A student or employer can verify the certificate by entering the details.
+● If valid, it returns true; otherwise, false.
+High-Level Overview:
+● Used to prevent fake certificates.
+● Enables quick verification by employers or other institutions.
+● Shows how blockchain can be used in education and credential verification.
+```
 # Result:
-The output of the given experiment output
+
+![exp 1(i)](https://github.com/user-attachments/assets/441e58b2-d176-4e76-a391-7cab8fd7e1d2)
+
+![exp 1(ii)](https://github.com/user-attachments/assets/fbef5bac-795c-46cd-ab2f-4bf50cc0a479)
+
+Thus the program was implemented and executed successfully and the output was verified
